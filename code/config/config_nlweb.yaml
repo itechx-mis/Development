@@ -1,0 +1,13 @@
+# NLWeb Configuration
+# This file contains settings specific to the NLWeb functionality
+
+# Comma-separated list of allowed sites, if you have multiple sites
+# in your store and want to restrict search to some sites. Defaults 
+# to all, for now.
+#sites: "yoursite"
+
+
+# Data folders for JSON files and embeddings
+data_folders:
+  json_data: "../data/json"
+  json_with_embeddings: "../data/json_with_embeddings"
